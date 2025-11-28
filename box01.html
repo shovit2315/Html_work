@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header, nav, section, article, aside, footer {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #ff9999;
+    }
+    nav {
+      background-color: #99ccff;
+    }
+    .content-wrapper {
+      display: flex;
+      background-color: #e0f0ff;
+    }
+    section {
+      flex: 1;
+      background-color: #ffccdd;
+      padding: 10px;
+    }
+    section > h2 {
+      margin-top: 0;
+    }
+    article {
+      background-color: #d9b3ff;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    aside {
+      width: 200px;
+      background-color: #cccccc;
+      padding: 10px;
+      margin-left: 10px;
+    }
+    footer {
+      background-color: #ffcc99;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Header top</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">box 1</a></li>
+
+    </ul>
+  </nav>
+
+  <div class="content-wrapper">
+    <section>
+      <h2></h2>
+      <article>
+        <h3></h3>
+        <p>box 3</p>
+      </article>
+    </section>
+    <aside>
+      <h3>Sidebar / Aside</h3>
+      <p>Extra related content goes here.</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Footer content here</p>
+  </footer>
+
+</body>
+</html>

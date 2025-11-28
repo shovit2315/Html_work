@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            Layout 5
+        </title>
+        <style>
+            html, *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            #main{
+                width:1000px;
+                height:800px;
+                background-color:rgb(209, 209, 209);
+                margin: 0 auto;
+                display:flex;
+                flex-direction: column;
+                gap:5px;
+            }
+            #Header,#Footer{
+                background-color:#ff5353;
+                height:150px;
+            }
+            #Body{
+                background-color:#ff5353;
+                height:400px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="Header">
+            <div id="htop">
+                <div id="hlog"></div>
+                <div id="hban"></div>
+            </div>
+            <div id="hbot"></div>
+        </div>
+        <div id="Body">
+            <div id="bleft"></div>
+            <div id="center">
+                <div id="ccb"></div>
+                <div id="midc">
+                    <div id="clb"></div>
+                    <div id="crb"></div>
+                </div>
+                <div id="modc"></div>
+            </div>
+            <div id="bright"></div>
+        </div>
+        <div id="Footer"></div>
+        </div>
+    </body>
+</html>

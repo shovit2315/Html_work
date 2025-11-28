@@ -1,0 +1,42 @@
+body{
+   margin: 0px;
+   padding: 0;
+background-color: lavender;
+background-image: url(simple.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+background-size: cover;
+}
+html,*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+p{
+font-family: Arial;
+font-size: large;
+font-weight: 300;
+font-style: italic;
+color: blue;
+text-align: justify;
+text-decoration: underline;
+text-transform: capitalize;
+text-shadow: 1px 20px  1px red;
+text-wrap: ;
+
+}
+span{
+color: blue; size: 30px;
+}
+#para{
+    color: aqua;
+display: inline;
+}
+ul li{
+float: left; margin: 30px;
+
+
+}
+
+
