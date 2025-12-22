@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Amazon Clone</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e3e6e6;
+    }
+
+    .aa {
+      background-color: #131921;
+      color: white;
+      padding: 10px;
+    }
+
+    .aal {
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .aas {
+      display: inline-block;
+    }
+
+    .aas input[type="text"] {
+      width: 250px;
+      padding: 5px;
+    }
+
+    .aas button {
+      padding: 6px 10px;
+      background-color: #febd69;
+      border: none;
+      cursor: pointer;
+    }
+
+    .aar {
+      float: right;
+      font-size: 14px;
+    }
+
+    .aar span {
+      margin-left: 15px;
+      cursor: pointer;
+    }
+
+    .menu-bar {
+      background-color: #232f3e;
+      color: white;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+
+    .menu-bar span {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .basic {
+      background-color: #f3f3f3;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .aai {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .products {
+      padding: 15px;
+    }
+
+    .product-row {
+      margin-bottom: 15px;
+      white-space: nowrap;
+    }
+
+    .product-box {
+      width: 23%;
+      background-color: white;
+      padding: 10px;
+      display: inline-block;
+      margin-right: 1%;
+      margin-bottom: 10px;
+      vertical-align: top;
+      box-sizing: border-box;
+    }
+
+    .product-box h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .product-box img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background-color: #ddd;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .product-box a {
+      font-size: 13px;
+      color: #007185;
+      text-decoration: none;
+    }
+
+    .product-box a:hover {
+      text-decoration: underline;
+    }
+
+    
+
+    @media (max-width: 768px) {
+      .product-box {
+        width: 48%;
+        margin-right: 2%;
+      }
+      .product-row {
+        white-space: normal;
+      }
+      .product-box img {
+        height: 160px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .product-box {
+        width: 100%;
+        margin-right: 0;
+      }
+      .product-box img {
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="aa">
+    <div class="aal">Amazon</div>
+
+    <div class="aas">
+      <input type="text" placeholder="Search products">
+      <button>Search</button>
+    </div>
+
+    <div class="aar">
+      <span>Hello, Sign in</span>
+      <span>Returns &amp; Orders</span>
+      <span>Cart</span>
+    </div>
+
+    <div style="clear: both;"></div>
+  </div>
+
+  <div class="menu-bar">
+    <span>All</span>
+    <span>Today's Deals</span>
+    <span>Customer Service</span>
+    <span>Gift Cards</span>
+    <span>Sell</span>
+  </div>
+
+  <div class="basic">
+    <img src="https://i.pinimg.com/564x/71/3f/f2/713ff2828de8fd471369fed7991d9cc7.jpg" alt="am" class="aai">
+  </div>
+
+  <div class="products">
+    <div class="product-row">
+      <div class="product-box">
+        <h3>Clothes &amp; Fashion</h3>
+        <img src="https://m.media-amazon.com/images/I/41XXiwXboSL.jpg">
+        <a href="#">Shop now</a>
+      </div>
+
+      <div class="product-box">
+        <h3>Electronics</h3>
+        <img src="https://m.media-amazon.com/images/I/8174YnTefkL._AC_SY145_.jpg">
+        <a href="#">Shop now</a>
+      </div>
+
+      <div class="product-box">
+        <h3>Home &amp; Kitchen</h3>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/sudipta/GW/BAU/Budgetunrec._CB777837018_.jpg">
+        <a href="#">Shop now</a>
+      </div>
+
+      <div class="product-box">
+        <h3>Mobiles</h3>
+        <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/OnePlus/Flagship/OnePlus15R/Prebook/CLP/OnePlus_15R.jpg">
+        <a href="#">Shop now</a>
+      </div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-box">
+        <h3>Beauty</h3>
+        <img src="https://m.media-amazon.com/images/I/41W4JRKxo8L.AC_SX250.jpg">
+        <a href="#">Shop now</a>
+      </div>
+
+      <div class="product-box">
+        <h3>Books</h3>
+        <img src="https://m.media-amazon.com/images/I/813J-B3fKxL._AC_UY327_FMwebp_QL65_.jpg">
+        <a href="#">Shop now</a>
+      </div>
+
+      <div class="product-box">
+        <h3>Sports</h3>
+        <img src="https://m.media-amazon.com/images/I/415qBsvQ60L._SR480,440_AC_.jpg">
+        <a href="#">Shop now</a>
+      </div>
+
+      <div class="product-box">
+        <h3>Toys</h3>
+        <img src="https://m.media-amazon.com/images/I/51jJF3u+FkL._AC_UL480_FMwebp_QL65_.jpg">
+        <a href="#">Shop now</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+</body>
+</html>
